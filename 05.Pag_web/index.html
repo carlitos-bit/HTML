@@ -23,38 +23,104 @@
             <h2>Nossas Modalidades</h2>
             <p>A prática de atividades físicas em uma academia é fundamental para a saúde física e mental. Ela contribui para a melhoria da qualidade de vida, aumento da disposição, fortalecimento do corpo e prevenção de doenças. Além disso, promove bem-estar, disciplina e autoestima, ajudando no equilíbrio entre corpo e mente.</p>
             <ul>
-                <li>Musculação</li>
+                <li>MUSCULAÇÃO</li>
                 <ul>
                     <li><strong>Musculação</strong></li>
                     <li><em>A musculação é uma atividade física voltada para o fortalecimento dos músculos, melhora da postura e aumento da resistência física. Ela contribui para a saúde do corpo, ajuda na prevenção de lesões e promove mais disposição e qualidade de vida.</em></li>
-                    <li><img src="" alt=""></li>
+                    <li><img src="musculaçao.avif" alt="musculação"></li>
+                </ul>
+                <li>CROSS FIT</li>
+                <ul>
+                    <li><strong>Cross Fit</strong></li>
+                    <li><em>O crossfit é um método de treino que combina força, resistência e condicionamento físico por meio de exercícios variados e intensos. Ele busca melhorar o desempenho geral do corpo, aumentar a resistência e desenvolver disciplina e superação pessoal. Além dos benefícios físicos, também estimula a motivação e o trabalho em equipe.</em></li>
+                    <li><img src="cross.avif" alt="cross fit"></li>
+                </ul>
+                <li>PILATES</li>
+                <ul>
+                    <li><strong>Pilates</strong></li>
+                    <li><em>O pilates é uma atividade física focada no fortalecimento do corpo de forma equilibrada, com ênfase na postura, respiração e controle dos movimentos. Ele ajuda a melhorar a flexibilidade, a consciência corporal e a prevenção de dores, promovendo bem-estar e qualidade de vida.</em></li>
+                    <li><img src="pilates.avif" alt="pilates"></li>
                 </ul>
             </ul>
 
         </section>
 
         <section id="horarios">
-            <h2>Horários</h2>
-            <p>Segunda a Sexta: 06h às 22h</p>
-            <p>Sábado: 08h às 14h</p>
+            <h2>Horários da Semana</h2>
+            <table border="3">
+                <thead>
+                    <th>Horário</th>
+                    <th>Segunda</th>
+                    <th>Quarta</th>
+                    <th>Sexta</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13h30-15h00</td>
+                        <td>Pilates</td>
+                        <td>Musculação</td>
+                        <td>Cross Fit</td>
+                    </tr>
+                    <tr>
+                        <td>14h30-16h00</td>
+                        <td>Musculação</td>
+                        <td>Cross Fit</td>
+                        <td>Pilates</td>
+                    </tr>
+                    <tr>
+                        <td>14h00-15h30</td>
+                        <td>Musculação</td>
+                        <td>Pilates</td>
+                        <td>Cross Fit</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Sujeito a Lotação Máxima</td>
+                    </tr>
+                </tfoot>
+            </table>
+
         </section>
 
         <section id="matriculas">
-            <h2>Matrículas</h2>
-            <p>
-                Faça sua matrícula presencialmente ou entre em contato para mais informações
-                sobre nossos planos.
-            </p>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Email: contato@fitlifeacademy.com</p>
-            <p>Telefone: (11) 99999-9999</p>
+            <h2>Faça sua Matrículas</h2>
+            <form action="post">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome">
+                <br><br>
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+                <br><br>
+                <label for="data">Data de Nascimento</label>
+                <input type="date" id="data">
+                <br><br>
+                <label for="plano">Plano de Interesse</label>
+                <select name="plano" id="plano">
+                    <option value="">Selecione</option>
+                    <option value="ms">Mensal</option>
+                    <option value="tr">Trimestral</option>
+                    <option value="an">Anual</option>
+                </select>
+                <br><br>
+                <label for="obj">Objetivo</label>
+                <textarea name="objetivo" id="obj"></textarea>
+                <br><br>
+                <label for="termo">Li e aceitos as regras</label>
+                <input type="checkbox" name="termo" id="termo">
+                <br><br><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
         </section>
     </main>
     <footer>
-
+        <p>Copyright &copy; 2026</p>
+        <ul>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank">Facebook</a></li>
+            <li><a href="carlitosjunior271109@gmail.com">E-mail</a></li>
+        </ul>
     </footer>
 </body>
 </html>
